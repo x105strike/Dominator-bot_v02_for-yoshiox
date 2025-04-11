@@ -8,7 +8,7 @@ import os
 TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 
 
-TARGET_USERNAME = "yoshiox11"
+TARGET_USERNAME = "x_105_strike"
 
 intents = discord.Intents.default()
 intents.message_content = True
