@@ -8,7 +8,7 @@ import os
 TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 
 
-TARGET_USERNAME = "x_105_strike"
+TARGET_USERNAME = "yoshiox11"
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -24,7 +24,7 @@ async def on_message(message):
         return
 
     if message.author.name == TARGET_USERNAME:
-        aaa = random.randint(0, 999)
+        aaa = random.randint(0, 350)
 
         alpha = f"変態係数{aaa}"
         if aaa < 100:
